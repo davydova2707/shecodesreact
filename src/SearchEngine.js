@@ -21,6 +21,7 @@ export default function SearchEngine() {
         <input type="submit" value="Search" />
       </form>
       {textCity}
+      <p><a href="https://github.com/davydova2707/shecodesreact" target="_blank" rel="noreferrer">Open-source code</a> by Olena</p>
     </div>
   );
 }
