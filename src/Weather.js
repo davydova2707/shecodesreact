@@ -32,7 +32,7 @@ export default function Weather(props) {
       <p>
         <img src={icon} alt="Weather Icon"/>
       </p>
-      <p><a href="https://github.com/davydova2707/shecodesreact" target="_blank">Open-source code</a> by Olena</p>
+      <p><a href="https://github.com/davydova2707/shecodesreact" target="_blank" rel="noreferrer">Open-source code</a> by Olena</p>
     </div>
   );
 }
