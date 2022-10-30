@@ -30,7 +30,7 @@ export default function Weather(props) {
       <p>Humidity : {humidity}%</p>
       <p>Wind : {speed} km/h</p>
       <p>
-        <img src={icon} />
+        <img src={icon} alt="Weather Icon"/>
       </p>
     </div>
   );
