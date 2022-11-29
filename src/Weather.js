@@ -53,6 +53,12 @@ export default function Weather(props) {
                         aria-describedby="button-addon2"
                         id="enterAcity"
                         onChange={updateCity}
+                        onKeyPress={event => {
+                          if (event.key === 'Enter') {
+                            event.preventDefault();
+                            search();
+                          }
+                        }}
                       />
                       {/*
                       <button
