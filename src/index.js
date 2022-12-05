@@ -13,12 +13,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className="App">
     <div>
-      <h1>
-        Hosted with
-        <a href="https://www.netlify.com">Netlify</a>
-      </h1>
-    </div>
-    <div>
       <SearchEngine />
     </div>
   </div>

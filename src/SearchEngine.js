@@ -7,7 +7,7 @@ export default function SearchEngine() {
       <Weather defaultCity="Kyiv" />
       <br />
       <span className="footer">
-        <a href="https://github.com/davydova2707/shecodesreact" target="_blank" rel="noreferrer">Open-source code</a> by Olena
+        This project was coded by <a href="https://www.linkedin.com/in/davydovaolena" target="_blank" rel="noreferrer">Olena Davydova</a> and is <a href="https://github.com/shecodesio/dictionary" target="_blank" rel="noreferrer">open-sourced</a> on <a href="https://davydovaweather.netlify.app/" target="_blank" rel="noreferrer">Netlify</a>
       </span>
     </div>
   );
